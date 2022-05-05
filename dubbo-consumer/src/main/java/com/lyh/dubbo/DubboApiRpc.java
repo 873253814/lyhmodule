@@ -10,6 +10,8 @@ public class DubboApiRpc {
     private DubboApi dubboApi;
 
     public String sayHello() {
+        System.out.println("hello");
+        System.out.println("test");
         return dubboApi.sayHello();
     }
 
