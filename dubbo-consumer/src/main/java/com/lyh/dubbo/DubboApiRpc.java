@@ -17,6 +17,7 @@ public class DubboApiRpc {
     }
 
     public String dubboTest() {
+        System.out.println("OneTest");
         return dubboApi.dubboTest();
     }
 }
